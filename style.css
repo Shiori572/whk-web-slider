@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*background-color: black;*/
+}
+p {/*ページ内ジャンプ対策*/
+  scroll-margin-top: 80px;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+header div {
+    padding: 0 30px;
+    background-color:rgb(0, 0, 0, 0.7)
+}
+.header_flex {
+    display: flex;
+    height:80px;
+    align-items: center;
+}
+.header_flex nav {
+    margin-left: auto;
+    display: flex;
+}
+
+.header_flex nav a {
+    margin-left: 20px;
+    background: linear-gradient(45deg, #DAA520, #FFD700);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header img {
+    height: 60px;
+}
+main div {
+    margin-bottom: 100px;
+}
+
+.slider-wrapper{
+overflow: hidden;
+max-width: 1000px;
+margin: 0 70px 55px;
+
+}
+.card-list .card-item {
+ background: rgba(225,225,225,0.2);
+ border-radius: 8px;
+ display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid rgba(225,225,225,0.6);
+
+}
+
+
+.slider-wrapper .swiper-slide-button{
+    color:#ffe4e1;
+    margin-top: -150px;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+    color: #FF0000;
+}
